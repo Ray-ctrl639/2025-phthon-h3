@@ -1,9 +1,11 @@
 
+#建立變數
 name="阿呆"
 age="1000歲"
 kg="200台斤，是嚴重肥豬"
 student=True
 
+#發射變數
 print(name)
 print(age)
 print(kg)
