@@ -1,0 +1,9 @@
+name="阿更呆"
+age=10000
+price=1959.65
+a0=True
+
+print(type(name))
+print(type(age))
+print(type(price))
+print(type(a0))
