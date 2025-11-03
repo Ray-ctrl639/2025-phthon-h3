@@ -1,7 +1,7 @@
 
 name="阿呆"
-age=1000
-kg="200台斤，嚴重肥豬"
+age="1000歲"
+kg="200台斤，是嚴重肥豬"
 student=True
 
 print(name)
