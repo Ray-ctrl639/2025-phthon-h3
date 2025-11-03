@@ -1,0 +1,4 @@
+a=int(input("要計算數字"))
+b=int(input("要計算數字二"))
+
+print(a*b)
