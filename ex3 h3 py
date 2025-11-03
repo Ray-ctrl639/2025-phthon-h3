@@ -2,3 +2,14 @@ a=int(input("要計算數字"))
 b=int(input("要計算數字二"))
 
 print(a*b)
+
+
+
+# 整數 (Integer)
+age = input("please input int number = ")
+print("age = ",age)
+print(type(age))
+
+age = int(input("please input int number = "))
+print("age = ",age)
+print(type(age))
