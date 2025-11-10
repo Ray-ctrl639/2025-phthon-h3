@@ -1,0 +1,7 @@
+a = int(input("數字一"))
+b = int(input("數字二"))
+
+print(a + b )
+print(a - b )
+print(a * b )
+print(a / b)
