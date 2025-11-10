@@ -1,0 +1,10 @@
+
+# 字串轉數字
+str_number = "544544"
+str_float = "3.1415926"
+
+int_number = int(str_number)
+float_number = float(str_float)
+
+print(f"字串 '{str_number}' 轉整數：{int_number} (型別：{type(int_number)})")
+print(f"字串 '{str_float}' 轉浮點數：{float_number} (型別：{type(float_number)})")
