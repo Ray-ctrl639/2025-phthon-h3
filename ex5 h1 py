@@ -1,4 +1,6 @@
 
+
+print("考試分數計算器")
 a=int(input("輸入考試分數"))
 if a>95 :
     print("天才")
