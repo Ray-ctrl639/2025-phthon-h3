@@ -1,11 +1,9 @@
 
-x = int(input("數字一"))
-y = int(input("數字二"))
+age = int(input("輸入年齡"))
 
-print(x + y)
-print(x - y)
-print(x * y)
-print(x / y)
-print(x % y)
-print(x ** y)
-print(x // y)
+if age >= 120:
+    print("您已死亡!")
+elif age >= 18:
+    print("您已成年，可以投票！")
+else:
+    print("您未成年，無法投票。")
