@@ -14,3 +14,11 @@ elif a<60 :
     print("加油")
 else :
     print("合格")
+
+
+
+print("園面積計算器")
+a=int(input("輸入直徑"))
+e=a//2
+f=e*e*3.1415926
+print(e,"×",e,"×",3.1415926,"=",f,sep="")
