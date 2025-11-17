@@ -22,3 +22,16 @@ a=int(input("輸入直徑"))
 e=a//2
 f=e*e*3.1415926
 print(e,"×",e,"×",3.1415926,"=",f,sep="")
+
+
+
+print("BMI計算器")
+a=int(input("輸入體重"))
+r=int(input("輸入身高"))
+o=r//a
+if o<4:
+    print("胖")
+elif o>8:
+    print("瘦")
+else :
+    print("正常")
