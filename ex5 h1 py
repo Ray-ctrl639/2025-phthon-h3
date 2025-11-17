@@ -29,7 +29,7 @@ print("BMI計算器")
 a=int(input("輸入體重"))
 r=int(input("輸入身高"))
 o=r//a
-if o<4:
+if o<3:
     print("胖")
 elif o>8:
     print("瘦")
