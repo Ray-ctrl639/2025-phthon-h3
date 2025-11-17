@@ -1,0 +1,14 @@
+
+a=int(input("輸入考試分數"))
+if a>95 :
+    print("天才")
+elif a>90 :
+    print("很棒")
+elif a>80 :
+    print("不錯")
+elif a<30 :
+    print("糟糕")
+elif a<60 :
+    print("加油")
+else :
+    print("合格")
