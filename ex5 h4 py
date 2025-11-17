@@ -1,0 +1,11 @@
+
+x = int(input("數字一"))
+y = int(input("數字二"))
+
+print(x + y)
+print(x - y)
+print(x * y)
+print(x / y)
+print(x % y)
+print(x ** y)
+print(x // y)
