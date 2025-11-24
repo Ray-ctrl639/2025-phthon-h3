@@ -18,20 +18,39 @@ else :
 
 
 print("園面積計算器")
-a=int(input("輸入直徑"))
-e=a//2
+l=int(input("輸入直徑"))
+e=l//2
 f=e*e*3.1415926
 print(e,"×",e,"×",3.1415926,"=",f,sep="")
 
 
 
 print("BMI計算器")
-a=int(input("輸入體重"))
+p=int(input("輸入體重"))
 r=int(input("輸入身高"))
-o=r//a
+o=r//p
 if o<3:
     print("胖")
 elif o>8:
     print("瘦")
 else :
     print("正常")
+    g=100
+print("存活計算器")
+l=int(input("輸入年齡"))
+if l<12 :
+    j=30
+elif l<18 :
+    j=50
+elif l<30 :
+    j=60
+elif l<30 :
+    j=10
+p=int(input("輸入55556694321"))
+if p==55556694321:
+    k=50
+m=g+a+j+k
+if m<250:
+    print("死亡")
+elif m>300:
+    print("存活")
