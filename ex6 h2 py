@@ -1,5 +1,5 @@
 
 a=int(input("輸入一個數"))
 g=int(input("輸入第二個數"))
-o=a*a*g*g
+o=a*a+g*g
 print(o)
