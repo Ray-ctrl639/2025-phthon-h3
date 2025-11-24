@@ -1,8 +1,10 @@
+
+
 a=int(input("輸入一個數"))
 g=int(input("輸入第二個數"))
 o=a*a+g*g
 print(o)
-H=("輸入要計算的圓半徑")
+H=int(input("輸入要計算的圓半徑"))
 p=H*2*3.1415926
 k=H*H*3.1415926
-print(p，k)
+print(p,k)
