@@ -1,0 +1,18 @@
+
+print("考試分數計算器")
+a=int(input("輸入考試分數"))
+if a>95 :
+    o="天才"
+elif a>90 :
+    o="很棒"
+elif a>80 :
+    o="不錯"
+elif a<30 :
+    o="糟糕"
+elif a<60 :
+    o="加油"
+else :
+    o='合格'
+
+
+print(f"你的成績是{a}分，等級是{o}")
