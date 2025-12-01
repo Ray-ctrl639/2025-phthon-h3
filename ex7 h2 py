@@ -1,0 +1,5 @@
+l=int(input("次數"))
+
+for i in range(1,l+1,1):
+    for p in range(1,l+1,1):
+        print(i,"*",p,"=",i*p)
