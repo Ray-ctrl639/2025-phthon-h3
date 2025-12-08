@@ -2,3 +2,7 @@ def greet(name):
     print(f"你好，{name}!很高興見到你!")
 r=input("你的名字")
 greet(r)
+def greet(abcd):
+    print(f"你喜歡的水果是{abcd}!")
+l=input("喜愛水果")
+greet(l)
