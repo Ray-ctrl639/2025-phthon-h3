@@ -1,3 +1,4 @@
+
 class Person:
     def __init__(self, name, ID):
         self.name = name
@@ -8,3 +9,10 @@ class Person:
 
 p = Person("Tom",12)
 p.greet()
+
+p.name = "Mary"
+print(p.name)
+p.greet()
+del p.name
+print(p)
+del p
