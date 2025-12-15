@@ -11,14 +11,33 @@ if c >= 0:
 a=int(input("輸入年份"))
 y=int(input("輸入月份"))
 h=a%4
-if y==1 or 3 or 5 or 7 or 8 or 10 or 12:
+if y==1:
     print("31天")
-elif y==4 or 6 or 9 or 11:
+if y==5:
+    print("31天")
+if y==3:
+    print("31天")
+if y==7:
+    print("31天")
+if y==8:
+    print("31天")
+if y==10:
+    print("31天")
+if y==12:
+    print("31天")
+if y==11:
     print("30天")
-elif y==2 and h==0:
+if y==9:
+    print("30天")
+if y==6:
+    print("30天")
+if y==4:
+    print("30天")
+if y==2 and h==0:
     print("29天")
-else:
+if y==2 and h>0:
     print("28天")
+
 
 #3．從鍵盤輸入兩個數，求出其最大值
 #5、編寫一個程式,從4個整數中找出最小的數,並顯示此數。
