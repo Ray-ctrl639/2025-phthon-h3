@@ -10,5 +10,8 @@ fruits[2] = "grape"
 print(fruits[2])
 print(fruits)
 
-fruits.append("hello")
-print(fruits)
+for f in fruits:
+    print(f)
+    
+for i in range(len(fruits)):
+    print(i,":",fruits[i])
